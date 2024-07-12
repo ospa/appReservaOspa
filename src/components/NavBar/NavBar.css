@@ -1,0 +1,47 @@
+
+
+.navegacionPrincipal {
+    width: 80%;
+    margin:  auto;
+    list-style-type: none; 
+    text-align: left;
+    font-size: 0;
+}
+
+
+.navegacionPrincipal ul li {
+    display: inline-block;
+    width: flex;
+    position: relative;
+    background: #021b12;
+}
+  .navegacionPrincipal li a {
+    display: block;
+    text-decoration: none;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    color: #b3abab;
+}
+
+.navegacionAux {
+  width: 50%;
+  margin: 2rem auto;
+  list-style-type: none; 
+  text-align: left;
+  font-size: 0;
+}
+
+
+.navegacionAux ul li {
+  display: inline-block;
+  width: flex;
+  position: inherit;
+  background: #151616;
+}
+.navegacionAux li a {
+  display: block;
+  text-decoration: none;
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  color: #b3abab;
+}
