@@ -19,6 +19,10 @@ const NavBar = () => {
                     <li><a href="#Local-SEO">Carta</a></li>
                     
                     <li><a href="#Local-SEO2">Reserva</a></li>
+
+                    <li>
+                      <link to={'/categoria/comidas'} >Comidas</link>
+                    </li>
                     </ul>
                 </nav>
                 <CartWidget/>

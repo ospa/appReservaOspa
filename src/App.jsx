@@ -11,8 +11,16 @@ function App() {
 
   return (
     <>
+    <browserRouter>
+    
       <NavBar/>
-      <ItemListContainer greeting="Bienvenidos al sabor"/>
+      <routes>
+        <ItemListContainer greeting="Bienvenidos al sabor"/>
+        <Route path='/' element={<ItemListContainer/>} />
+        <Route path='/category/:cat' element={<ItemListContainer/>} />
+        <Route path='/detalle/:id' element={<ItemListContainer/>} />
+      </routes>
+    </browserRouter>
     </>
   )
 }
