@@ -1,9 +1,27 @@
-import React from 'react'
+//import React from 'react'
+import React, { useEffect, useState, useContext } from 'react'
 import './NavBar.css'
 import CartWidget from '../CartWidget/CartWidget'
+import { Link } from 'react-router-dom'
 
 const NavBar = () => {
+
+  const [categories, setCategories] = useState([])
+
+ /* useEffect(()=> {
+    fetch('https://fakestoreapi.com/products/categories')
+            .then(res=>res.json())
+            .then(json=>setCategories(json))
+  }, [])*/
+
   return (
+
+    /*{categories?.map(e=>{
+      return (
+        <Link key={e} to={`/categoria/${e}`}>{e}</Link>
+      )
+    })
+  }*/
     <div>
                     
             <header>
